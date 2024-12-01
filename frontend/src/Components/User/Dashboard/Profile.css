@@ -1,0 +1,66 @@
+/* Header */
+
+/* Utility Classes */
+
+/* .container {
+    margin: 0px auto;
+} */
+
+/* media queries */
+
+.account-form {
+  margin: 15px auto;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 0px 0px 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.account1 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 50vh; */
+}
+
+.account-form div {
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.input {
+  margin-top: 10px;
+  padding: 10px;
+  height: 40px;
+  min-width: 350px;
+  width: 100%;
+  border: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+  background-color: rgb(228, 233, 238);
+  border-radius: 20px;
+}
+
+.submit {
+  margin-top: 20px;
+  background-color: #064420;
+  width: 35%;
+  height: 45px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  justify-self: center;
+}
+
+.error {
+  color: red;
+}
+
+.bg {
+  background: url("../../../Assets/bg.jpeg");
+  min-height: 101vh;
+}

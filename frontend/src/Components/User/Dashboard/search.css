@@ -1,0 +1,23 @@
+.search-container {
+    background-color: #E4EFE7;
+    width: 100%;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+
+.search-box {
+    height: 300px;
+    width: 460px;
+    align-items: center;
+    padding: 35px;
+}
+
+input {
+    width: 100%;
+    height: 45px;
+    ;
+}

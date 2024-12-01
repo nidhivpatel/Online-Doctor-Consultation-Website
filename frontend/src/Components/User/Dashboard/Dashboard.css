@@ -1,0 +1,29 @@
+.navbar {
+  font-family: "Roboto", sans-serif;
+  background-color: #e4efe7;
+  font-size: 0.9em;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #064420;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.container {
+  width: 55%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-brand {
+  padding-right: 100px;
+  font-weight: bold;
+  color: #064420;
+}

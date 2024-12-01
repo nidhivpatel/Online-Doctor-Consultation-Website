@@ -1,0 +1,91 @@
+.loading {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+/* radio button card for slots */
+
+.slots-info {
+  width: 100%;
+}
+
+.colour-sign {
+  margin-left: 20px;
+  display: flex;
+}
+
+.colour-sign p {
+  margin: 10px 30px 10px 5px;
+}
+
+.day-info {
+  margin: 30px;
+}
+
+.date-day {
+  background-color: rgb(223, 219, 219);
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.slots {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.available {
+  background-color: blanchedalmond;
+  cursor: pointer;
+}
+
+.unavailable {
+  background-color: grey;
+}
+
+.slot {
+  display: inline;
+  padding: 3px 4px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.sign {
+  height: 25px;
+  width: 30px;
+}
+
+/* label {
+  width: 30%;
+} */
+
+.card-input-element {
+  display: none;
+}
+
+.card-input {
+  background-color: antiquewhite;
+  margin: 10px;
+  padding: 00px;
+}
+
+.card-input:hover {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.card-input-element:checked + .card-input {
+  box-shadow: 0 0 1px 1px #000000;
+}
+
+/* .slot:checked+.card-input {
+  box-shadow: 0 0 1px 1px #2ecc71;
+} */
