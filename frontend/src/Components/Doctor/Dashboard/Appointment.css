@@ -1,0 +1,17 @@
+* {
+    color: #064420;
+}
+
+.profile-container {
+    padding-left: 45px;
+}
+
+.appointments {
+    width: 45%;
+}
+
+.appointment-card {
+    background-color: #fdfaf6;
+    display: flex;
+    justify-content: center;
+}
